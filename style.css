@@ -1,0 +1,51 @@
+body {
+    background-color: #548cc5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 60px 40px 100px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  #cronometro {
+    font-size: 72px;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  #btnIniciar, #btnParar, #btnReiniciar {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btnIniciar:hover, #btnParar:hover, #btnReiniciar:hover {
+    background-color: #555;
+  }
+  
+  #btnIniciar:active, #btnParar:active, #btnReiniciar:active {
+    background-color: #111;
+  }
+  
+  #btnIniciar:disabled, #btnParar:disabled, #btnReiniciar:disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
